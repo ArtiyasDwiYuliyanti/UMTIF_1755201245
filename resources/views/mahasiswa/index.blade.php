@@ -22,7 +22,7 @@
 			var table = $('#mhs-table').DataTable({
 				processing: true,
 				serverSide: true,
-				ajax: "{{ route('mhs_list')}}",
+				ajax: "{{ route('mhs_list') }}",
 				columns: [
 					{data: 'DT_RowIndex', name: 'DT_RowIndex'},
 					{data: 'nim', name: 'nim'},
